@@ -28,6 +28,9 @@ def button_pressed():
     converted = converter(miles_entered)
     km_converted["text"] = str(converted)
 
+# Not sure this part is ideal.
+# Will see what she does later.
+
 
 button = Button(text="Calculate", command=button_pressed)
 button.grid(column=2, row=3)
